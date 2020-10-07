@@ -12,7 +12,9 @@
 ## Contributors 🦸
 
 <p align="center">
-  <a href="https://github.com/parthpandyappp/StripURL/graphs/contributors"><img src="https://contributors-img.web.app/image?repo=parthpandyappp/StripURL" /></a>
+ <a href="https://github.com/parthpandyappp/StripURL/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=parthpandyappp/StripURL" />
+</a>
 </p>
 
 ##### **`All the Contributors (front-end DEVs) as will be featured above.`:heart_eyes: `Don't forget to Star`:star:`this repo`**
