@@ -1,4 +1,5 @@
 # StripURL
+A web application which aims to provide free tool which can shorten any URL feeded to it, generally uses Python and a tinyurl API to shorten URL. Also, if you're using this app in your PC and you want any URL to be opened up on any mobile device, this app generates a ready to scan Qr code for that particular URL, so that user can easily scan it to have to on it's device! Isn't this cool service :heart_eyes:? That too Open-Source! :cowboy_hat_face: Which means this app is distributed, anyone can propose changes to improve or enhance it's `functionality`, `UI/Design`, `UX`.
 
 ### General Instructions :mega:
 1. Choose and pick the issue which most interests you:heavy_check_mark:.
