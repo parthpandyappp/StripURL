@@ -4,8 +4,8 @@
 1. Choose and pick the issue which most interests you:heavy_check_mark:.
 2. Fork this repository:heavy_check_mark:.
 3. You can create a folder with name : `front-end`:heavy_check_mark:.
-4. Add your HTML, CSS or JS files in that folder. 
-5. **`NOTE`** No need to interact with app for now.
+4. Add your HTML, CSS or JS files in that folder.:heavy_check_mark:
+5. **`NOTE`** No need to interact with app for now.:heavy_check_mark:
 
 <img align="left" src="https://posthog-static-files.s3.us-east-2.amazonaws.com/Website-Assets/rebrand/icons/Untitled_Artwork+2+copy+15+1.jpg" width="50px" />
 
