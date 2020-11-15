@@ -12,7 +12,7 @@
   <meta name="keywords" content="Colorlib Templates">
   <link rel="shortcut icon" href="{% static 'imagess/short.svg' %}" />
   <!-- Title Page-->
-  <title>StripURL</title>
+  <title>Stripped</title>
 
   <!-- Icons font CSS-->
 
@@ -25,6 +25,7 @@
     rel="stylesheet">
 
   <!-- Vendor CSS-->
+  <link href="https://fonts.googleapis.com/css?family=Trispace|Roboto:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Audiowide|Roboto:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto:300,400" rel="stylesheet">
@@ -66,29 +67,18 @@
     <div class="wrapper wrapper--w680">
       <div class="card card-4">
         <div class="card-body">
-          <h2 class="title text-center" style="font-family: 'Fredoka One';font-size: 42px;">StripURL</h2>
-          <p class="text-center" style="font-family: 'Architects Daughter';font-size: 22px;">Get rid of long URLs now!
-          </p>
-          <p class="title text-center" style="font-family: 'Architects Daughter';font-size: 16px;">Shorten link of you
-            flavour😎</p>
-          <form action="shortened/" method="POST">
-            {% csrf_token %}
-            <div class="form-row align-items-center mx-auto">
-              <div class="col-auto mx-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">🔗</div>
-                  </div>
-                  <input type="url" name="link" class="text-center form-control" id="inlineFormInputGroup"
-                    placeholder="URL to be shortened" required>
-                </div>
-              </div>
-              <div class="col-auto mx-auto">
-                <button type="submit" class="btn btn-primary btn-sm"
-                  style="border-radius: 40px; font-family: 'Audiowide';">Strip it please!</button>
-              </div>
-            </div>
-          </form>
+          <div class="text-center">
+            <h2 class="title text-center" style="font-family: 'Fredoka One';font-size: 42px;">We're ready to serve you!
+              😄</h2>
+            <img src="{% static 'imagess/myqr.svg' %}" height="300px" alt="IMG">
+            <input class="mb-4 text-center form-control" style="font-family: 'Trispace';" type="text"
+              placeholder="Scan the above QRcode to access the site from mobile device!" readonly>
+            <div class="mb-4 jumbotron text-light" id="myInput"
+              style="padding-top: 24px; padding-bottom: 28px;border-radius: 40px;background:RoyalBlue;font-family: 'Architects Daughter'; font-size: x-large;">
+              {{short}}</div>
+            <button class="btn btn-primary" style="font-family: 'Luckiest Guy'; border-radius: 40px"
+              data-clipboard-target="#myInput">Copy Stripped URL</button>
+          </div>
         </div>
       </div>
     </div>
@@ -103,7 +93,10 @@
 
   <!-- Main JS-->
   <script src="{% static 'js/global.js' %}"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+  <script type="text/javascript">
+    new ClipboardJS('.btn');
+  </script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 </html>

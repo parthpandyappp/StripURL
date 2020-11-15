@@ -19,6 +19,6 @@ from StripUrl.views import index, process
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index),
+    path('', index),
     path('shortened/', process)
 ]

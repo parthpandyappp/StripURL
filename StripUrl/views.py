@@ -19,8 +19,8 @@ def process(request):
         shortner = pyshorteners.Shortener()
         x = shortner.tinyurl.short(link)
         url = pyqrcode.create(x)
-        url.svg("myqr.svg", scale=8)
-        return render(request, "StripUrl/see.html", {'short': x})
+        url.svg("/home/parth/StripURL/StripUrl/static/imagess/myqr.svg", scale=8)
+        return render(request, "StripUrl/design.html", {'short': x})
 
     else:
-        return render(request, "StripUrl/see.html")
+        return render(request, "StripUrl/design.html")
