@@ -10,6 +10,20 @@ A web application which aims to provide free tool which can shorten any URL feed
 
 <img align="left" src="https://posthog-static-files.s3.us-east-2.amazonaws.com/Website-Assets/rebrand/icons/Untitled_Artwork+2+copy+15+1.jpg" width="50px" />
 
+### Early Preview
+- Home
+<p align="center">
+  <img src="https://i.ibb.co/S3LMJcw/screely-1606647962992.png" title="Home"/>
+</p>
+
+- Shortened 
+<p align="center">
+  <img src="https://i.ibb.co/1qfwWwG/screely-1606647874557.png" title="Home"/>
+</p>
+
+
+
+
 ## Contributors 🦸
 
 <p align="center">
